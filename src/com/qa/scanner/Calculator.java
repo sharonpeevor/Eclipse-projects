@@ -36,8 +36,16 @@ public class Calculator {
 		String choice = scanner.nextLine();
 		
 		if (choice.equalsIgnoreCase("add")) {
-			add(int numOne, int numTwo);
-		} 
+			add();
+		} else if (choice.equalsIgnoreCase("multiply")) {
+			multiply();
+		} else if (choice.equalsIgnoreCase("subtract")) {
+			subtract();
+		} else if (choice.equalsIgnoreCase("divide")) {
+			divide();
+		} else (System.out.println("Invalid choice")){
+			
+		}
 		
 		
 		
